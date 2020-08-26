@@ -53,8 +53,8 @@ object euforica {
 		unaGolondrina.volar(5)
 	}
 		
-	method energiaQueGastariaAlVolar(unosKilometros) {
-		return unosKilometros / 5 + 10
+	method energiaQueGastariaAlVolar(unosKilometros) {// energia que gasta al volar se delega a sus distintos estados de animo
+		return unosKilometros / 5 + 10 
 	}
 }
 
@@ -63,8 +63,8 @@ object debil {
 		unaGolondrina.comer(500)
 	}
 		
-	method energiaQueGastariaAlVolar(unosKilometros) {
-		return unosKilometros / 8 + 50
+	method energiaQueGastariaAlVolar(unosKilometros) { // energia que gasta al volar se delega a sus distintos estados de animo
+		return unosKilometros / 8 + 50 // si la golondrina esta debil le costará más volar
 	}
 }
 
@@ -73,8 +73,8 @@ object normal {
 		// Es un método vacío porque no hace nada
 	}
 		
-	method energiaQueGastariaAlVolar(unosKilometros) {
-		return unosKilometros / 8 + 10
+	method energiaQueGastariaAlVolar(unosKilometros) {// energia que gasta al volar se delega a sus distintos estados de animo
+		return unosKilometros / 8 + 10 // si esta normal va a gastar lo que siempre gastaba al volar
 	}
 }
 
